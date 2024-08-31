@@ -8,7 +8,7 @@ from llama_index.llms import OpenAI
 from llama_index import VectorStoreIndex, SimpleDirectoryReader, ServiceContext
 
 def some_function(input_text):
-    # export OPENAI_API_KEY='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'
+    # export OPENAI_API_KEY=
     api_key = os.environ.get('OPENAI_API_KEY')
     # os.environ['OPENAI_API_KEY'] =
     
